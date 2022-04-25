@@ -1,3 +1,4 @@
+import { inputPrompt } from "/scripts/input_prompt.js";
 export async function main(ns) {
 	if (ns.args[0] == null) {
 		await ns.wget("https://BitBurner-1.codeerror123.repl.co", "/chat/messages.txt")
