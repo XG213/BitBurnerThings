@@ -3,7 +3,7 @@ export async function main(ns) {
 		await ns.wget("https://BitBurner-1.codeerror123.repl.co", "/chat/messages.txt")
 		var response = await ns.read("/chat/messages.txt")
 		response = response.replace(/%20/g, " ");
-		var messages = await response.split('---')
+		var messages = await response.split('-{/}-')
 		for (let i = 0; i < messages.length; ++i) {
 			if (messages[i]) {
 				await ns.tprintf(messages[i])
@@ -23,7 +23,7 @@ export async function main(ns) {
 		await ns.wget(`https://BitBurner-1.codeerror123.repl.co/?text=${name + ": " + msg}`, "/chat/messages.txt")
 		var response = await ns.read("/chat/messages.txt")
 		response = response.replace(/%20/g, " ");
-		var messages = await response.split('---')
+		var messages = await response.split('-{/}-')
 		for (let i = 0; i < messages.length; ++i) {
 			if (messages[i]) {
 				await ns.tprintf(messages[i])
