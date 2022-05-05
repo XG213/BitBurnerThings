@@ -1,4 +1,4 @@
-import { spider } from "spider.js";
+import { spider } from "/scripts/spider.js";
 export async function main(ns) {
 	var serverList = []
 	var list = await spider(ns)
@@ -11,6 +11,6 @@ export async function main(ns) {
 	}
 	for (let i = 0; i <= serverList.length - 1; i++) {
 		ns.print(i)
-		ns.run("hack_script.js", ns.args[0], serverList[i])
+		ns.run("/scripts/hack_script.js", ns.args[0], serverList[i])
 	}
 }
