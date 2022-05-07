@@ -10,7 +10,7 @@
          "name":"app2",
          "code":"https://github.com/XG213/BitBurnerThings/raw/main/runner.js",
          "author":"Noone"
-      },
+      }
    ],
    "number":1
 }
