@@ -5,7 +5,12 @@
          "name":"app1",
          "code":"https://github.com/XG213/BitBurnerThings/raw/main/spider.js",
          "author":"Noone"
-      }
+      },
+      {
+         "name":"app2",
+         "code":"https://github.com/XG213/BitBurnerThings/raw/main/runner.js",
+         "author":"Noone"
+      },
    ],
    "number":1
 }
