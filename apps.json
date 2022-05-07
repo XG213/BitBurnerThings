@@ -2,8 +2,8 @@
    "message":"success",
    "apps":[
       {
-         "name":"Cum",
-         "code":"https://github.com/XG213/LimeOS-appstore-api/raw/main/apps/BSOD Editor.lua",
+         "name":"app1",
+         "code":"placeholder",
          "author":"Noone"
       }
    ],
