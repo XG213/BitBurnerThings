@@ -3,7 +3,7 @@
    "apps":[
       {
          "name":"app1",
-         "code":"placeholder",
+         "code":"https://github.com/XG213/BitBurnerThings/raw/main/spider.js",
          "author":"Noone"
       }
    ],
